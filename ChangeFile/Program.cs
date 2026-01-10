@@ -15,8 +15,9 @@ namespace ChangeFile
             string path = "C:/sers/Zz/Desktop";
             DirectoryInfo dir = new DirectoryInfo(path);
             SerialPort port = new SerialPort();
-            Console.WriteLine(SerialPort.GetPortNames());
+            //Console.WriteLine(SerialPort.GetPortNames());
             //port.Open();
+            Console.WriteLine("123");
             Console.ReadKey();
         }
     }
