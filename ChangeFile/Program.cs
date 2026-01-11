@@ -18,7 +18,7 @@ namespace ChangeFile
             //Console.WriteLine(SerialPort.GetPortNames());
             //port.Open();
             Console.WriteLine("123");
-            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.BackgroundColor = ConsoleColor.DarkYellow;
             Console.Clear();
             Console.ReadKey();
         }
