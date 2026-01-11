@@ -18,6 +18,7 @@ namespace ChangeFile
             //Console.WriteLine(SerialPort.GetPortNames());
             //port.Open();
             Console.WriteLine("123");
+            Console.WriteLine("需要合并的代码");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Clear();
             Console.ReadKey();
