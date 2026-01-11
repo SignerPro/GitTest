@@ -13,11 +13,13 @@ namespace ChangeFile
         static void Main(string[] args)
         {
             string path = "C:/sers/Zz/Desktop";
-            DirectoryInfo dir = new DirectoryInfo(path);
-            SerialPort port = new SerialPort();
+           // DirectoryInfo dir = new DirectoryInfo(path);
+         //   SerialPort port = new SerialPort();
             //Console.WriteLine(SerialPort.GetPortNames());
             //port.Open();
             Console.WriteLine("123");
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.Clear();
             Console.ReadKey();
         }
     }
